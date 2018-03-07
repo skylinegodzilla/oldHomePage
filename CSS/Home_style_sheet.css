@@ -1,0 +1,422 @@
+@charset "UTF-8";
+#Blank {
+}
+
+/*
+body{
+	background:
+	url(../Img/Background-01.png) center top no-repeat,
+	url(../Img/Background-02.png) right 0 repeat-x,
+	url(../Img/Background-03.png) left 0 repeat-x;
+	background-color:#232323;
+	}
+*/
+
+
+#Container
+	{
+	position:relative;
+	width:1200px;
+	margin: 0 auto;
+	border:none;
+	z-index:20;
+	top:0px;
+	border:none;
+	}
+
+#SubContainer
+	{
+	position:relative;
+	top: 50px;
+	width:1000px;
+	margin: 0 auto;
+	border:none;
+	}
+#DateCont
+	{
+	position:absolute;
+	bottom:40px;
+	left: 120px;
+	height:110px;
+	border:none;
+	}
+#LinksCont
+	{
+	position:absolute;
+	width: 500px;
+	height:100px;
+	left: 450px;
+	bottom:10px;
+	}
+#BlogspotButtion a
+	{
+	position:absolute;
+	background-image: url(../Img/Links%20Buttions/Blogspot_Normal-01.png);
+	width:95px;
+	height:95px;
+	display:block;
+	left:0px;
+	}
+#BlogspotButtion a:hover
+	{
+	background-image: url(../Img/Links%20Buttions/Blogspot_Over-01.png);
+	}
+#FBBut a
+	{
+	position:absolute;
+	background-image:url(../Img/Links%20Buttions/Facebook_Normal-01.png);
+	width:95px;
+	height:95px;
+	display:block;
+	left:100px;
+	}
+#FBBut a:hover
+	{
+	background-image: url(../Img/Links%20Buttions/Facebook_Over-01.png);
+	}
+#YTBut a
+	{
+	position:absolute;
+	background-image:url(../Img/Links%20Buttions/YouTube_Normal-01.png);
+	width:95px;
+	height:95px;
+	display:block;
+	left:200px;
+	}
+#YTBut a:hover
+	{
+	background-image: url(../Img/Links%20Buttions/YouTube_Over-01.png);
+	}
+#DABut a
+	{
+	position:absolute;
+	background-image:url(../Img/Links%20Buttions/DA_Normal-01.png);
+	width:95px;
+	height:95px;
+	display:block;
+	left:300px;
+	}
+#DABut a:hover
+	{
+	background-image: url(../Img/Links%20Buttions/DA_Over-01.png);
+	}
+#SkyginsBut a
+	{
+	position:absolute;
+	background-image:url(../Img/Links%20Buttions/Skygins_Normal-01.png);
+	width:95px;
+	height:95px;
+	display:block;
+	left:400px;
+	}
+#SkyginsBut a:hover
+	{
+	background-image: url(../Img/Links%20Buttions/Skygins_Over-01.png);
+	}
+	
+#TopSection
+	{
+	position:relative;
+	height:400px;
+	width:1000px;
+	border:none;
+	}
+#DateFont
+	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	color: #FC0;
+	}
+.test 
+	{
+	background-color: #0F9;
+	}
+#SearchBars
+	{
+	position:relative;
+	width:1000px;
+	height:140px;
+	border:none;
+	}
+#InputBox
+	{
+	position:absolute;
+	color:#666;
+	border-radius:15px;
+	width:445px;
+	height:55px;
+	font-size: 24px;
+	text-align: left;
+	text-indent: 10px;
+	}
+#InputBox2
+	{
+	position:absolute;
+	right:0;
+	color:#666;
+	border-radius:15px;
+	width:445px;
+	height:55px;
+	font-size: 24px;
+	text-align: left;
+	text-indent: 10px;
+	}
+#SearchBarsAlignment
+	{	
+	top:40px;
+	position:absolute;
+	width:960px;
+	height:60px;
+	left:20px;
+	}
+#RandomSayingContainer
+	{
+	left:410px;
+	top:100px;
+	width:510px;
+	height:110px;
+	position:absolute;
+	}
+#RandomSayingTittle
+	{
+	font-family: "Arial Rounded MT Bold";
+	font-size: 25px;
+	font-style: italic;
+	color: #FFF;
+	line-height: 0px;
+	text-align: left;
+	}
+#RandomSayingBody
+	{
+	font-family: Corbel, "Corbel Bold", "Corbel Bold Italic", "Corbel Italic";
+	font-size: 30px;
+	font-style: italic;
+	color: #09F;
+	line-height: 0px;
+	text-indent: 20px;
+	}
+#Massivediv{
+	height:3000px;
+}
+/* Background stuff */
+
+Body
+	{
+	background-color:#232323;
+	}
+#BGCover
+	{
+	position:absolute;
+	background-color:#3C6;
+	width: 100%;	
+	top:500px;
+	bottom:0px;
+	left:0px;
+	z-index:19;
+	}
+#BGCont
+	{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	margin-left:auto;
+	margin-right:auto;
+	width:1200 px;
+	z-index:0;
+	height:500px;
+	overflow:hidden;
+	}
+#BGfixedstuff
+	{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	z-index:1;
+	height:500px;
+	}
+#BGfixedmindstuff
+	{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	z-index:2;
+	height:500px;
+	}
+#BGLeft
+	{
+	position:absolute;
+	width: 40%;
+	left: 0;
+	z-index:3;
+	background:url(../Img/Sky-03.png) left 0 repeat-x;
+	height:500px;
+	}
+#BGRight
+	{
+	position:absolute;
+	width: 40%;
+	z-index:4;
+	right: 0;
+	background:url(../Img/Sky-02.png) right 0 repeat-x;
+	height:500px;
+	}
+#BGCenter
+	{
+	position:absolute;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	width: 1200px;
+	z-index:5;
+	background:url(../Img/Sky-01.png) center top no-repeat;
+	height:500px;
+	}
+	
+#clouda
+	{
+	position:absolute;
+	width: 231px;
+	height: 111px;
+	background-image:url(../Img/Objects-05.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	z-index:6;
+	}
+#cloudb
+	{
+	position:absolute;
+	width: 231px;
+	height: 111px;
+	background-image:url(../Img/Objects-04.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	z-index:7;
+	}
+#cloudc
+	{
+	position:absolute;
+	width: 231px;
+	height: 111px;
+	background-image:url(../Img/Objects-04.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	z-index:8;
+	}
+#plta
+	{
+	position:absolute;
+	width: 90px;
+	height: 80px;
+	left: 550px;
+	top: 225px;
+	background-image:url(../Img/platform-01.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	z-index:9;
+	}
+#pltb
+	{
+	position:absolute;
+	width: 90px;
+	height: 80px;
+	left: 150px;
+	top:100px;
+	background-image:url(../Img/platform-02.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	z-index:9;
+	}
+#farbgbuild
+	{
+	position:absolute;
+	width: 1200px;
+	height: 401px;
+	left: 50px;
+	top: 140px;
+	background-image:url(../Img/BGfarbuildings-01.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	z-index:5;
+	}
+#lighta
+	{
+	position:absolute;
+	width: 1800px;
+	height: 41px;
+	left: 0px;
+	top: 200px;
+	background-image:url(../Img/lights-01.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	z-index:5;
+	}
+#lightb
+	{
+	position:absolute;
+	width: 1800px;
+	height: 41px;
+	left: 0px;
+	top: 200px;
+	background-image:url(../Img/lights-02.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	z-index:5;
+	}
+#lightc
+	{
+	position:absolute;
+	width: 1800px;
+	height: 41px;
+	left: 0px;
+	top: 200px;
+	background-image:url(../Img/lights-04.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	z-index:5;
+	}
+
+#BGLeftbuild
+	{
+	position:absolute;
+	top: 50px;
+	width: 40%;
+	left: 0;
+	z-index:14;
+	background:url(../Img/Buildings-03.png) left 0 repeat-x;
+	height:500px;
+	}
+#BGRightbuild
+	{
+	position:absolute;
+	top: 50px;
+	width: 50%;
+	z-index:15;
+	right: -550px;
+	background:url(../Img/Buildings-02.png) right 0 repeat-x;
+	height:500px;
+	}
+#BGCenterbuild
+	{
+	position:absolute;
+	top: 50px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	width: 1200px;
+	z-index:16;
+	background:url(../Img/Buildings-01.png) center top no-repeat;
+	height:500px;
+	}
+
+/* end of Background stuff */

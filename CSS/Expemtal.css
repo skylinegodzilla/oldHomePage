@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#clouda
+	{
+	position:absolute;
+	width: 231px;
+	height: 111px;
+	background-image:url(../Img/Objects-05.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	}
+#cloudb
+	{
+	position:fixed;
+	width: 231px;
+	height: 111px;
+	background-image:url(../Img/Objects-04.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	}
+#cloudc
+	{
+	position:fixed;
+	width: 231px;
+	height: 111px;
+	background-image:url(../Img/Objects-04.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	}
+#BGCont
+	{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	z-index:0;
+	height:500px;
+	overflow: hidden;
+	}
+#masscon
+	{
+		width:50px;
+		height:2000px;
+	}
